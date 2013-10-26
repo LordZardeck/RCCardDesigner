@@ -1,0 +1,131 @@
+{
+    "src": "sprites.png",
+    "prebuilt": {
+        "class": {
+            "warrior": {
+                "x": 666,
+                "y": 382,
+                "width": 53,
+                "height": 66
+            },
+            "weapon": {
+                "x": 666,
+                "y": 237,
+                "width": 54,
+                "height": 62
+            },
+            "territory": {
+                "x": 659,
+                "y": 100,
+                "width": 68,
+                "height": 39
+            }
+        },
+        "hero": {
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 60,
+                "height": 15,
+                "x": 13,
+                "y": 7
+            },
+            "colors": {
+                "blue": {
+                    "x": 11,
+                    "y": 11,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "yellow": {
+                    "x": 102,
+                    "y": 11
+                },
+                "green": {
+                    "x": 193,
+                    "y": 11
+                },
+                "purple": {
+                    "x": 284,
+                    "y": 11
+                },
+                "red": {
+                    "x": 375,
+                    "y": 11
+                },
+                "silver": {
+                    "x": 466,
+                    "y": 11
+                },
+                "teal": {
+                    "x": 557,
+                    "y": 11
+                },
+                "white": {
+                    "x": 648,
+                    "y": 11
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 11
+                }
+            }
+        },
+        "evil-character": {
+           "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 35,
+                "height": 18,
+                "x": 44,
+                "y": 8
+            },
+            "colors": {
+                "black": {
+                    "x": 11,
+                    "y": 84,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "brown": {
+                    "x": 102,
+                    "y": 84
+                },
+                "crimson": {
+                    "x": 193,
+                    "y": 84
+                },
+                "gold": {
+                    "x": 284,
+                    "y": 84                
+                },
+                "gray": {
+                    "x": 375,
+                    "y": 84
+                },
+                "orange": {
+                    "x": 466,
+                    "y": 84
+                },
+                "light-green": {
+                    "x": 557,
+                    "y": 84
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 84
+                }
+            } 
+        }
+    }
+}
