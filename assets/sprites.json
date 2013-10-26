@@ -76,6 +76,218 @@
                 }
             }
         },
+        "hero-enhancement": {
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 60,
+                "height": 15,
+                "x": 13,
+                "y": 7
+            },
+            "colors": {
+                "blue": {
+                    "x": 11,
+                    "y": 303,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "yellow": {
+                    "x": 102,
+                    "y": 303
+                },
+                "green": {
+                    "x": 193,
+                    "y": 303
+                },
+                "purple": {
+                    "x": 284,
+                    "y": 303
+                },
+                "red": {
+                    "x": 375,
+                    "y": 303
+                },
+                "silver": {
+                    "x": 466,
+                    "y": 303
+                },
+                "teal": {
+                    "x": 557,
+                    "y": 303
+                },
+                "white": {
+                    "x": 648,
+                    "y": 303
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 303
+                }
+            }
+        },
+        "hero-enhancement-no-ability": {
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 60,
+                "height": 15,
+                "x": 13,
+                "y": 7
+            },
+            "colors": {
+                "blue": {
+                    "x": 11,
+                    "y": 157,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "yellow": {
+                    "x": 102,
+                    "y": 157
+                },
+                "green": {
+                    "x": 193,
+                    "y": 157
+                },
+                "purple": {
+                    "x": 284,
+                    "y": 157
+                },
+                "red": {
+                    "x": 375,
+                    "y": 157
+                },
+                "silver": {
+                    "x": 466,
+                    "y": 157
+                },
+                "teal": {
+                    "x": 557,
+                    "y": 157
+                },
+                "white": {
+                    "x": 648,
+                    "y": 157
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 157
+                }
+            }
+        },
+        "evil-enhancement": {
+           "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 35,
+                "height": 18,
+                "x": 44,
+                "y": 8
+            },
+            "colors": {
+                "black": {
+                    "x": 11,
+                    "y": 376,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "brown": {
+                    "x": 102,
+                    "y": 376
+                },
+                "crimson": {
+                    "x": 193,
+                    "y": 376
+                },
+                "gold": {
+                    "x": 2376,
+                    "y": 376                
+                },
+                "gray": {
+                    "x": 375,
+                    "y": 376
+                },
+                "orange": {
+                    "x": 466,
+                    "y": 376
+                },
+                "light-green": {
+                    "x": 557,
+                    "y": 376
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 376
+                }
+            } 
+        },
+        "evil-enhancement-no-ability": {
+           "size": {
+                "width": 88,
+                "height": 72
+            },
+            "text-area": {
+                "width": 35,
+                "height": 18,
+                "x": 44,
+                "y": 8
+            },
+            "colors": {
+                "black": {
+                    "x": 11,
+                    "y": 230,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "brown": {
+                    "x": 102,
+                    "y": 230
+                },
+                "crimson": {
+                    "x": 193,
+                    "y": 230
+                },
+                "gold": {
+                    "x": 2230,
+                    "y": 230                
+                },
+                "gray": {
+                    "x": 375,
+                    "y": 230
+                },
+                "orange": {
+                    "x": 466,
+                    "y": 230
+                },
+                "light-green": {
+                    "x": 557,
+                    "y": 230
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 230
+                }
+            } 
+        },
         "evil-character": {
            "size": {
                 "width": 88,
@@ -126,6 +338,93 @@
                     "y": 84
                 }
             } 
+        },
+        "site": {
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "colors": {
+                "blue": {
+                    "x": 11,
+                    "y": 449,
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                "yellow": {
+                    "x": 102,
+                    "y": 449
+                },
+                "green": {
+                    "x": 193,
+                    "y": 449
+                },
+                "purple": {
+                    "x": 284,
+                    "y": 449
+                },
+                "red": {
+                    "x": 375,
+                    "y": 449
+                },
+                "silver": {
+                    "x": 466,
+                    "y": 449
+                },
+                "teal": {
+                    "x": 557,
+                    "y": 449
+                },
+                "white": {
+                    "x": 648,
+                    "y": 449
+                },
+                "multi": {
+                    "x": 739,
+                    "y": 449
+                }
+            }
+        },
+        "dominant": {            
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "colors": {
+                "good": {
+                    "x": 557,
+                    "y": 522
+                }
+            }
+        },
+        "fortress": {            
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "colors": {
+                "good": {
+                    "x": 648,
+                    "y": 522
+                },
+                "evil": {
+                    "x": 648,
+                    "y": 595
+                }
+            }
+        },
+        "artifact": {            
+            "size": {
+                "width": 88,
+                "height": 72
+            },
+            "artifact": {
+                "x": 739,
+                "y": 522
+            }
         }
     }
 }

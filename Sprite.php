@@ -15,7 +15,7 @@
 		private function __construct()
 		{			
 			// Load the sprite configuration file
-			$config = json_decode(file_get_contents(SPRITE_FOLDER . SPRITE_CONFIG), true);
+			$config = json_decode(file_get_contents(SPRITE_FOLDER . SPRITE_CONFIG), true);			
 
 			// Load the sprite image file
 			$this->_sprites = imagecreatefrompng(SPRITE_FOLDER . $config['src']);
@@ -53,7 +53,7 @@
 				throw new Exception("Sprite type and color cannot be null.", 1);
 
 			// If the the type is an enhancement and has no strenght or toughness, use a special sprite type
-			if(($type == 'hero-enhancment' || $type == 'evil-enhancement') && (is_null($strength) && is_null($toughness)))
+			if(($type == 'hero-enhancement' || $type == 'evil-enhancement') && (is_null($strength) && is_null($toughness)))
 				$type .= '-no-ability';
 				
 			// Get the config details on the sprite
@@ -85,7 +85,7 @@
 			
 
 			// Add the abilities if applicable
-			if(strpos($type, '-no-ability') === false && array_key_exists('text-area', $Config))
+			if(strpos($type, '-no-ability') === false && array_key_exists('text-area', $Config) && (!is_null($toughness) || !is_null($strength)))
 			{
 				// Build the abilities string
 				$ability = ((is_null($strength))? '0' : $strength) . '/' . ((is_null($toughness))? '0' : $toughness);
